@@ -7,7 +7,7 @@ featured: true
 
 <iframe src="https://www.youtube.com/embed/bxvybxYFq2o" frameborder="0" allowfullscreen></iframe>
 
-You may receive an `EACCES` error when you try to install a package globally. This indicates that you do not have permission to write to the directories that npm uses to store global packages and commands.
+You may receive an `EACCES` error when you try to install a package globally. This indicates that you do not have permission to write to the directories that npm uses to store global packages and commands. The reason may be OS system upgrade, such as macOS.
 
 You can fix this problem using one of three options:
 
